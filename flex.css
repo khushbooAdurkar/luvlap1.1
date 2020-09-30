@@ -389,16 +389,10 @@ justify-content: space-between;}
 .map img{width: 100%;}
 .map p{text-align: left;padding-bottom: 0;font-weight: normal; }
 .map h4{font-weight: bold;}
-<<<<<<< HEAD
 .m{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .m1{width: 45%}
-=======
-.m1>div{
-  float: left;
-  padding-right: 17.5em;
-}
->>>>>>> 00fe0779becdd35898d25c0ab77431703cb96306
+

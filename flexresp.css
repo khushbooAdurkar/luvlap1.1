@@ -40,6 +40,10 @@
      .customer{width:48%;margin-bottom: 20px}
      .footer a{padding: 0}
      .fl:after {margin: 0 25px}
+     .fill{width: 100%;}
+     .map{width: 100%;}
+     .sub{ margin:0 0 20px 38%;width: 20%}
+     .aboutus p{padding-bottom: 1em;}
 
 }
 @media only screen and (max-width:600px){
@@ -90,6 +94,12 @@
       .footer a{padding:0;}
       .links li{display: block; }
       .link_row1{width:100%;padding-top:0; }
-      
+     .fill{width: 100%;}
+     .map{width: 100%;}
+     .sub{ margin:0 0 20px 34%;width: 35%} 
+     /*about us*/
+     .aboutus p{
+  padding-left: 10px;
+  padding-right: 10px;padding-bottom: 1em;}
      
 }

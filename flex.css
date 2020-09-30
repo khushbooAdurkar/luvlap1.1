@@ -24,6 +24,8 @@ body{margin: 0;padding: 0}
   width: 92%;
   text-align:right;
   padding-left: 7%;
+  padding-top: 30px;
+  padding-bottom: 31px;
 }
 .nav1{display: none;}
 .nav ul{
@@ -302,7 +304,7 @@ justify-content: space-between;}
 }
 
 
-.social{clear: both;width:99%;}
+.social{clear: both;width:99%;margin-top: 24px}
 .copy{
   clear: both;
   width:99%;
@@ -313,19 +315,7 @@ justify-content: space-between;}
   line-height: 1.17;
   letter-spacing: normal;
   color: #3a2c4a;} 
-
-
-
-
-.aboutus h4{
-  font-size: 32px;
-  font-weight: bold; 
-  font-style: normal;
-  line-height: 1.19;
-  letter-spacing: normal;
-  text-align: center;
-  color: #3a2c4a;
-}
+/*About Us*/
 .aboutus p{
   padding-left: 80px;
   padding-right: 86px;
@@ -337,8 +327,16 @@ justify-content: space-between;}
   letter-spacing: normal;
   text-align: left;
   color: #121116;
+  padding-bottom: 4.5em;
 }
-.contact p{
+
+.box-2{
+  width: 90%;margin-right: auto;
+  margin-left: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;}
+  .contact p{
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -350,10 +348,9 @@ justify-content: space-between;}
   padding-bottom: 50px;
   
 }
-.box-2{width: 100%;}
-.fill{width: 48%;float: left;padding-left: 80px;}
+.fill{width: 45%;}
 .fill label{ 
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;;
   font-style: normal;
   line-height: 1.63;
@@ -363,9 +360,9 @@ justify-content: space-between;}
   padding-bottom:5.7px;}
 .fill .in{
   height: 44px;
-  width: 88%;
+  width: 100%;
   border: 2px solid #d1c7c7;
-  padding: 10px 0;
+  font-size: 20px;
 }
 .in:focus{outline: none;}
 .fill .sub{
@@ -379,22 +376,22 @@ justify-content: space-between;}
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;}
-.fill textarea{width: 88%; border: 2px solid #d1c7c7;}
+.fill textarea{width: 100%; border: 2px solid #d1c7c7;}
 .fill textarea:focus{outline: none;}
 .map{
-  width: 43%;
-  float: left;
-  padding-right: 80px;
+  width: 48%;
   font-size: 16px; 
   font-style: normal;
   line-height: 1.63;
   letter-spacing: normal;
   text-align: left;
   color: #3a2c4a;}
-  .map img{width: 100%;}
+.map img{width: 100%;}
 .map p{text-align: left;padding-bottom: 0;font-weight: normal; }
 .map h4{font-weight: bold;}
-.m1>div{
-  float: left;
-  padding-right: 17.5em;
+.m{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+.m1{width: 45%}

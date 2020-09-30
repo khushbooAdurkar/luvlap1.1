@@ -1,0 +1,95 @@
+@media only screen and (max-width:1000px){
+  .logo{width: 15%}
+  .logo img{padding-left: 41px;}
+	.nav {display: none;}
+  	.nav1{float: right;padding-right: 20px;display: block;}
+      /* Show Hamburger Icon */
+     #hamnav label { 
+        display:inline-block; 
+        color:white;
+        background:black;
+        font-style: normal;
+        font-size: 1.5em;
+        margin-top: 20px;
+      }
+     #line,#SignIn{display: none;}
+      /* Break down menu items into vertical */
+     #hamitems a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.88; 
+        padding-left: 71px; 
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2c2727; 
+        display: block;
+        border-top: 1px solid #333;
+      }
+   
+      /* Toggle Show/Hide Menu */
+      #hamitems { display: none; }
+      #hamnav input:checked ~ #hamitems { display: block;}
+     .cat{width: 48%;}
+     .shop{width: 100%;margin-top: 20px}
+     .whole{width: 48%;}
+     .Testimonials{padding-bottom: 5em}
+     .thought{padding-left: 24px}
+     .customer{width:48%;margin-bottom: 20px}
+     .footer a{padding: 0}
+     .fl:after {margin: 0 25px}
+
+}
+@media only screen and (max-width:600px){
+.nav {display: none;}
+.logo{width: 15%}
+.logo img{padding-left: 41px;}
+  	.nav1{float: right;padding-right: 20px;display: block;}
+      /* Show Hamburger Icon */
+     #hamnav label { 
+        display:inline-block; 
+        color:white;
+        background:black;
+        font-style: normal;
+        font-size: 1.5em;
+
+      }
+     #line,#search,#SignIn{display: none;}
+      /* Break down menu items into vertical */
+     #hamitems a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.88; 
+        padding-left: 71px; 
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2c2727; 
+        display: block;
+        border-top: 1px solid #333;
+      }
+   
+      /* Toggle Show/Hide Menu */
+      #hamitems { display: none; }
+      #hamnav input:checked ~ #hamitems { display: block;}
+
+     .cat{width: 100%;}
+     .cat h5{margin: 10px 0;}
+     .shop{width: 100%;margin-top:0px}
+     .dry{margin-top:0}
+     .whole{width: 100%;}
+     .Testimonials{padding-bottom: 5em}
+     .customer{width:100%;margin-bottom: 20px}
+
+     .fl:after{content: none}
+      .footer{padding-bottom: 5em;padding-top:25px;clear: none;margin-top: 20px;}
+      .footer a{padding:0;}
+      .links li{display: block; }
+      .link_row1{width:100%;padding-top:0; }
+      
+     
+}
